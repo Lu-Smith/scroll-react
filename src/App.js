@@ -15,12 +15,12 @@ function App() {
       </ScrollPage>
       <ScrollPage page={1}>
         <Animator animation={ZoomInScrollOut}>
-        <h2>Today is a great day ☀️</h2>
+        <h2 className="italic">Today is a great day ☀️</h2>
         </Animator>
       </ScrollPage>
       <ScrollPage page={2}>
         <Animator animation={FadeUp}>
-        <h2>Tommorow will be great 😍</h2>
+        <h2 className="italic">Tommorow will be great 😍</h2>
         </Animator>
       </ScrollPage>
       <ScrollPage page={3}>
@@ -34,7 +34,7 @@ function App() {
       </ScrollPage>
       <ScrollPage page={4}>
       <Animator animation={batch(Fade(), Sticky())}>
-        <h2>The End</h2>
+        <h2 className="end">The End</h2>
       </Animator>
       </ScrollPage>
       
