@@ -1,13 +1,13 @@
 
+import { ScrollContainer } from 'react-scroll-motion';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       Hello World
-      </header>
-    </div>
+    <ScrollContainer>
+      Hello world
+
+    </ScrollContainer>
   );
 }
 
